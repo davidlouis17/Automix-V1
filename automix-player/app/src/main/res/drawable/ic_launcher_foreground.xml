@@ -1,0 +1,74 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer concentric rings representing 'clustering' -->
+    <path 
+        android:pathData="M 54 26 A 28 28 0 1 0 54 82 A 28 28 0 1 0 54 26 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF" 
+        android:strokeAlpha="0.05"
+        android:fillColor="#00000000"/>
+        
+    <path 
+        android:pathData="M 54 18 A 36 36 0 1 0 54 90 A 36 36 0 1 0 54 18 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#FFFFFF" 
+        android:strokeAlpha="0.03"
+        android:fillColor="#00000000"/>
+
+    <!-- Equalizer bars / "Audio Vectors" -->
+    <path 
+        android:pathData="M38,48 L38,60 M46,40 L46,68 M54,30 L54,78 M62,44 L62,64 M70,50 L70,58"
+        android:strokeWidth="6"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startY="30"
+                android:endY="78"
+                android:startX="54"
+                android:endX="54"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D0BCFF" />
+                <item android:offset="1.0" android:color="#00E5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Network Line connecting the nodes -->
+    <path 
+        android:pathData="M38,48 L46,40 L54,30 L62,44 L70,50"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.2"
+        android:fillColor="#00000000"/>
+        
+    <!-- Bottom Network Line -->
+    <path 
+        android:pathData="M38,60 L46,68 L54,78 L62,64 L70,58"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.2"
+        android:fillColor="#00000000"/>
+    
+    <!-- Nodes -->
+    <path 
+        android:pathData="
+            M 38 45.5 A 2.5 2.5 0 1 0 38 50.5 A 2.5 2.5 0 1 0 38 45.5 Z
+            M 46 37.5 A 2.5 2.5 0 1 0 46 42.5 A 2.5 2.5 0 1 0 46 37.5 Z
+            M 54 27.5 A 2.5 2.5 0 1 0 54 32.5 A 2.5 2.5 0 1 0 54 27.5 Z
+            M 62 41.5 A 2.5 2.5 0 1 0 62 46.5 A 2.5 2.5 0 1 0 62 41.5 Z
+            M 70 47.5 A 2.5 2.5 0 1 0 70 52.5 A 2.5 2.5 0 1 0 70 47.5 Z
+            M 38 57.5 A 2.5 2.5 0 1 0 38 62.5 A 2.5 2.5 0 1 0 38 57.5 Z
+            M 46 65.5 A 2.5 2.5 0 1 0 46 70.5 A 2.5 2.5 0 1 0 46 65.5 Z
+            M 54 75.5 A 2.5 2.5 0 1 0 54 80.5 A 2.5 2.5 0 1 0 54 75.5 Z
+            M 62 61.5 A 2.5 2.5 0 1 0 62 66.5 A 2.5 2.5 0 1 0 62 61.5 Z
+            M 70 55.5 A 2.5 2.5 0 1 0 70 60.5 A 2.5 2.5 0 1 0 70 55.5 Z
+        "
+        android:fillColor="#FFFFFF"/>
+</vector>

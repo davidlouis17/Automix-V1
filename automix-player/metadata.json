@@ -1,0 +1,6 @@
+{
+  "name": "Automix Player",
+  "description": "Android music player with Automix (crossfade) and K-Nearest Neighbor (KNN) song prediction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
